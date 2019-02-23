@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background_img"
+    tools:context=".ShowTestResult">
+
+
+    <TextView
+        android:id="@+id/testNameInResult"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textColor="#9f171d"
+        android:fontFamily="serif-monospace"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="inherit"
+        android:layout_gravity="center"
+        android:background="@drawable/text_view_custom_design"
+        />
+
+    <TextView
+            android:id="@+id/testResultLook"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:padding="15dp"
+            android:textColor="#9f171d"
+            android:fontFamily="serif-monospace"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold|italic"
+            android:textAlignment="inherit"
+            android:layout_gravity="center"
+
+            android:background="@drawable/text_view_custom_design"
+            />
+
+        <Button
+            android:id="@+id/goToMainBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/main_layout_btns"
+            android:text="OKAY"
+            />
+
+    <LinearLayout
+        android:id="@+id/resultViewPagerLook"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"></LinearLayout>
+
+
+</LinearLayout>
